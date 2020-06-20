@@ -14,7 +14,7 @@ int main()
 	getch();
 	printf("Are you my boss?\n please confirm your identity\n");
 	getch();
-	printf("enter your id =");
+	printf("enter your id =");  //reyad is default user id
 	gets(s1);
 	system("cls");
 	int d=strcmp(s,s1);
